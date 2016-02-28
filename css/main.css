@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
+  background-color: #f0eee8;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -16,8 +17,17 @@ html {
 
 .linkcard li {
   display: inline-block;
-  background-color: #785439;
-  border: 3px solid #cabdb2;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
   border-radius: 3px;
   text-align: left;
+  font-size: 1.125rem;
+}
+
+.linkcard strong {
+  font-size: 1.5rem;
+}
+
+.linkcarsd p {
+  font-size: 1rem;
 }

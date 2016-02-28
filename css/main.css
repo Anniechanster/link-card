@@ -12,22 +12,36 @@ html {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-align: center
 }
 
 .linkcard li {
-  display: inline-block;
+  display: block;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 3px;
   text-align: left;
-  font-size: 1.125rem;
+  font-size: 0.875remrem;
 }
 
 .linkcard strong {
   font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
 }
 
-.linkcarsd p {
+.linkcard p {
   font-size: 1rem;
+}
+
+.linkcard div {
+  text-align: center;
+}
+
+.linkcard a {
+  display: inline-block;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+  background-color: #785439;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
 }

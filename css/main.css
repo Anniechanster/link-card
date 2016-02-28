@@ -15,7 +15,8 @@ html {
 }
 
 .linkcard li {
-  display: block;
+  display: inline-block;
+  margin: 0;
   background-color: #dcd4cd;
   color: #512200;
   border: 3px solid #9a816d;
@@ -23,6 +24,7 @@ html {
   text-align: left;
   font-size: 0.875remrem;
   padding: 1rem;
+  line-height: 1.5rem;
 }
 
 .linkcard strong {
@@ -34,10 +36,12 @@ html {
 .linkcard p {
   font-size: 1rem;
   color: #512200;
+  line-height: 1.75rem;
 }
 
 .linkcard dl {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .linkcard dt {
@@ -45,9 +49,9 @@ html {
 }
 
 .linkcard dd {
-  display: inline-block;
+  display:
   margin: 0;
-  min-width: 18em;
+  min-width: 10em;
 }
 
 .linkcard div {

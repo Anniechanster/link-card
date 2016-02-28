@@ -17,19 +17,23 @@ html {
 .linkcard li {
   display: block;
   background-color: #dcd4cd;
+  color: #512200;
   border: 3px solid #9a816d;
   border-radius: 3px;
   text-align: left;
   font-size: 0.875remrem;
+  padding: 1rem;
 }
 
 .linkcard strong {
   font-size: 1.5rem;
   font-family: "Dosis", sans-serif;
+  color: #512200;
 }
 
 .linkcard p {
   font-size: 1rem;
+  color: #512200;
 }
 
 .linkcard div {
@@ -42,6 +46,15 @@ html {
   font-size: 1.125rem;
   background-color: #785439;
   border-radius: 8px;
+  border-width: 2px;
   color: #fff;
   text-decoration: none;
+}
+
+.linkcard hr {
+  border: 0;
+  width: 80%;
+  color: #9a816d;
+  background-color: #9a816d;
+  height: 5px;
 }

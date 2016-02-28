@@ -36,6 +36,20 @@ html {
   color: #512200;
 }
 
+.linkcard dl {
+  margin-bottom: 1rem;
+}
+
+.linkcard dt {
+  display: inline-block;
+}
+
+.linkcard dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 18em;
+}
+
 .linkcard div {
   text-align: center;
 }
@@ -45,6 +59,7 @@ html {
   font-family: "Dosis", sans-serif;
   font-size: 1.125rem;
   background-color: #785439;
+  padding: .5em .75em;
   border-radius: 8px;
   border-width: 2px;
   color: #fff;
@@ -53,8 +68,8 @@ html {
 
 .linkcard hr {
   border: 0;
-  width: 80%;
+  width: 100%;
   color: #9a816d;
   background-color: #9a816d;
-  height: 5px;
+  height: 2px;
 }

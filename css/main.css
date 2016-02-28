@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.linkcard {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center
+}
+
+.linkcard li {
+  display: inline-block;
+  background-color: #785439;
+  border: 3px solid #cabdb2;
+  border-radius: 3px;
+  text-align: left;
+}

@@ -8,13 +8,13 @@ html {
   box-sizing: inherit;
 }
 
-.linkcard {
+.link-card {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.linkcard li {
+.link-card {
   display: inline-block;
   margin: 0;
   background-color: #dcd4cd;
@@ -22,43 +22,51 @@ html {
   border: 3px solid #9a816d;
   border-radius: 3px;
   text-align: left;
-  font-size: 0.875remrem;
+  font-size: 0.875rem;
   padding: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.35rem;
+  text-decoration: none;
 }
 
-.linkcard strong {
+.link-card h2 {
   font-size: 1.5rem;
   font-family: "Dosis", sans-serif;
   color: #512200;
+  text-decoration: none;
+  margin-top: 0.1rem;
 }
 
-.linkcard p {
+.link-card p {
   font-size: 1rem;
   color: #512200;
-  line-height: 1.75rem;
+  line-height: 1.5rem;
+  margin-top: 0.1rem;
 }
 
-.linkcard dl {
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+.link-card dl {
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  width: 17em;
 }
 
-.linkcard dt {
+.link-card dt {
   display: inline-block;
+  width: 10em;
+  text-decoration: none;
 }
 
-.linkcard dd {
-  display:
+.link-card dd {
+  display: inline-block;
   margin: 0;
-  min-width: 10em;
 }
 
-.linkcard div {
+.link-card div {
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.15rem;
 }
 
-.linkcard a {
+div {
   display: inline-block;
   font-family: "Dosis", sans-serif;
   font-size: 1.125rem;
@@ -68,12 +76,25 @@ html {
   border-width: 2px;
   color: #fff;
   text-decoration: none;
+  text-align: center;
+  margin-left: 4rem;
 }
 
-.linkcard hr {
+.link-card hr {
   border: 0;
   width: 100%;
-  color: #9a816d;
   background-color: #9a816d;
   height: 2px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover div {
+  background-color: #512200;
 }
